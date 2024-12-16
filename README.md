@@ -1,2 +1,2 @@
-# mfti-course-cre
-mfti-course-cre
+# mfti-course-sre
+mfti-course-sre
