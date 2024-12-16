@@ -1,0 +1,23 @@
+replicaCount: 1
+
+image:
+  repository: ghcr.io/ldest/mfti-course/api
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  name: mfti-course
+  type: ClusterIP
+  port: 8087
+
+ingress:
+  enabled: true
+  host: domain-mfti-course
+
+resources:
+  requests:
+    cpu: "100m"
+    memory: "250Mi"
+  limits:
+    cpu: "100m"
+    memory: "250Mi"

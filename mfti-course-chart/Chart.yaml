@@ -1,0 +1,5 @@
+apiVersion: v2
+name: mfti-course
+description: A Helm chart for deploying the MFTI Course API
+version: 0.1.0
+appVersion: "latest"

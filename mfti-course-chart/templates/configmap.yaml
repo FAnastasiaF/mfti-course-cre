@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-mfti-course-config
+data:
+  ASPNETCORE_ENVIRONMENT: 'dev'
+  CONNECTIONSTRINGS__PGCONNECTION: 'Server=192.168.1.36;Port=5432;User id=postgres;Database=postgres;password=qwe123;'
+  ASPNETCORE_URLS: 'http://*:8087'
