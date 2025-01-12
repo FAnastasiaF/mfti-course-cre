@@ -4,5 +4,5 @@ metadata:
   name: {{ .Release.Name }}-mfti-course-config
 data:
   ASPNETCORE_ENVIRONMENT: 'dev'
-  CONNECTIONSTRINGS__PGCONNECTION: 'Server=192.168.1.35;Port=5432;User id=postgres;Database=postgres;password=qwe123;'
+  CONNECTIONSTRINGS__PGCONNECTION: 'Server=192.168.1.35;Port=5000;User id=postgres;Database=postgres;Password=qwe123;'
   ASPNETCORE_URLS: 'http://*:8087'
