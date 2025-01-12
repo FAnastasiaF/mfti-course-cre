@@ -15,7 +15,7 @@ ansible all -i /home/fanastasiiaf/sre/postgresql_cluster/automation/inventory -m
 5. Запустить `helm install my-release mfti-course-chart/`
 (В случае изменения helm-а можно апгрейдить командой `helm upgrade --install my-release mfti-course-chart/`)
 6. Проверить, что под запустился
-7. Пробрасываем swagger `curl -X 'GET' 'https://domain-mfti-course/WeatherForecast' -H 'accept: text/plain' --insecure`
+7. Пробрасываем swagger `curl -vvv --header "Host:domain-mfti-course" https://176.109.82.213/swagger/index.html --insecure`
 8. Добавляем хост в конец файла `sudo vim /etc/hosts`:
 `176.109.82.213  domain-mfti-course`
 9. Заходим по [url](https://domain-mfti-course/swagger/index.html)
