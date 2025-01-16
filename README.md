@@ -21,3 +21,7 @@ ansible all -i /home/fanastasiiaf/sre/postgresql_cluster/automation/inventory -m
 9. Заходим по [url](https://domain-mfti-course/swagger/index.html)
 10. Для проверки заходим в POST /Cities и execute-им
 11. Далее смотрим что он вернул 200 и в бд появился город
+## ДЗ 2
+
+1. Настраиваем на вм prometheus и все экспортеры
+2. Подгружаем в графану свой и ingress-овский prometheus и делаем по примеру из папки grafana dashboard
